@@ -4,7 +4,7 @@ describe Weapon do
 
   before :each do
     # Create a weapon with a name, weight, and damage
-    @weapon = Weapon.new("power_shock", 10, 45)
+    @weapon = Weapon.new("power_shock", 10, 45, 1)
   end
 
   it "should be an item" do
